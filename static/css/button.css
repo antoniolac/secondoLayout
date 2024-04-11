@@ -1,0 +1,12 @@
+.button a:link,
+.button a:visited,
+.button a:hover,
+.button a:active {
+    display: block;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+    line-height: 50px;
+    padding: 14px 33px;
+}
