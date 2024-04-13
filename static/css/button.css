@@ -9,4 +9,8 @@
     background-color: black;
     line-height: 50px;
     padding: 14px 33px;
+    border-style: solid #0039BA 2px;
+    box-shadow: 0 0 2px black;
+    margin-top: 35px;
+    margin-bottom: 119px;
 }
