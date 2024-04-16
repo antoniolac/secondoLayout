@@ -3,14 +3,16 @@
 .button a:hover,
 .button a:active {
     display: block;
+    unicode-bidi: isolate;
     font-size: 35px;
     color: #fff;
     text-decoration: none;
     background-color: black;
     line-height: 50px;
     padding: 14px 33px;
-    border-style: solid #0039BA 2px;
-    box-shadow: 0 0 2px black;
     margin-top: 35px;
     margin-bottom: 119px;
+    background-image: url("C:/Users/media/OneDrive/Documenti/GitHub/secondoLayout/static/images/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 31px) center;
 }
