@@ -12,7 +12,22 @@
     padding: 14px 33px;
     margin-top: 35px;
     margin-bottom: 119px;
-    background-image: url("C:/Users/media/OneDrive/Documenti/GitHub/secondoLayout/static/images/arrow.svg");
+    position: relative;
+    /*background-image: url("../images/arrow.svg");
     background-repeat: no-repeat;
-    background-position: calc(100% - 31px) center;
+    background-position: calc(100% - 31px) center;*/
+}
+
+
+.button::after{
+    content: "" ;
+    width: 28px;
+    height: 34px;
+    display: block;
+    background-image: url(../images/arrow.svg);
+    /*background-position: calc(100% - 31px) center; */
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
 }
