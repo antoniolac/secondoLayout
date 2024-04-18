@@ -19,13 +19,13 @@
 }
 
 
-.button::after{
+.button a::after{
     content: "" ;
     width: 28px;
     height: 34px;
     display: block;
     background-image: url(../images/arrow.svg);
-    /*background-position: calc(100% - 31px) center; */
+    background-position: calc(100% - 31px) center; 
     position: absolute;
     right: 14px;
     top: 50%;

@@ -1,0 +1,15 @@
+.listcomponent li{
+    display: block;
+    line-height: 34px;
+    font-size: 22px;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+.listcomponent ol{
+    list-style-type: none;
+}
+.listcomponent li a{
+    color: #FF0000;
+}

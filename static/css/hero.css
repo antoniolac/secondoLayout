@@ -1,5 +1,17 @@
-.hero{
+.hero-celeste{
     background-color: #CEFBFF;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.hero-rosa{
+    background-color: #ECCEFF;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.hero-white{
+    background-color: #F5F5F5;
     width: 100%;
     margin: 0;
     padding: 0;
