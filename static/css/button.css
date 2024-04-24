@@ -13,6 +13,7 @@
     margin-top: 35px;
     margin-bottom: 119px;
     position: relative;
+
     /*background-image: url("../images/arrow.svg");
     background-repeat: no-repeat;
     background-position: calc(100% - 31px) center;*/
@@ -25,9 +26,10 @@
     height: 34px;
     display: block;
     background-image: url(../images/arrow.svg);
-    background-position: calc(100% - 31px) center; 
+    background-size: 28px 34px;
     position: absolute;
-    right: 14px;
+    right: 31px;
     top: 50%;
     transform: translateY(-50%);
+
 }

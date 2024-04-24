@@ -5,11 +5,27 @@
     color: #707070;
     margin: 0;
     padding: 0;
+    margin-bottom: 147px;
 }
 
 .listcomponent ol{
     list-style-type: none;
+    margin:  0;
+    padding: 0;
 }
 .listcomponent li a{
     color: #FF0000;
+    
+}
+
+.listcomponent h4{
+    font-size: 70px;
+    color: #707070;
+    line-height: 1;
+    margin-top: 104px;
+    margin-bottom: 8px;
+}
+
+.listcomponent hr{
+    border: 2px solid #707070;
 }

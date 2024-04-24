@@ -8,7 +8,8 @@
     background-color: #ECCEFF;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 200px;
 }
 .hero-white{
     background-color: #F5F5F5;
