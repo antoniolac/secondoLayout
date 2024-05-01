@@ -1,4 +1,4 @@
-.listcomponent li{
+.listcomponent p{
     display: block;
     line-height: 34px;
     font-size: 22px;
@@ -6,30 +6,28 @@
     margin: 0;
     padding: 0;
     margin-bottom: 53px;
+    border-top: solid 2px #707070;
+    padding-top: 16px;
 }
 
 .listcomponent ol{
     list-style-type: none;
     margin:  0;
-    margin-bottom: 147px;
     padding: 0;
+    counter-reset: listItem;
 }
 .listcomponent li a{
     color: #FF0000;
     
 }
 
-.listcomponent h5{
+
+.listcomponent li::before{
+    counter-increment: listItem;
+    content: "0" counter(listItem) ".";
+    display: block;
     font-size: 70px;
     color: #707070;
-    line-height: 1;
-    margin-top: 104px;
-    margin-bottom: 8px;
+    
+    
 }
-
-.listcomponent hr{
-    border: 2px solid #707070;
-    opacity: 100%;
-    margin-bottom: 15px;
-}
-
